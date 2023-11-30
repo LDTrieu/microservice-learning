@@ -6,8 +6,9 @@
 - Viết Dockerfile
 - Viết Docker-Compose để chạy cả Frontend, Backend và Database trên cùng một `docker-compose.yaml`
 - CI/CD: Viết một Github Action (hoặc Jenkins) để registry image này bằng Docker Hub và deploy.
-- Tham khảo: [Khóa học Docker - Tedu](https://tedu.com.vn/khoa-hoc/lam-chu-docker-de-chinh-phuc-devops-42.html)
-
+- Tham khảo: 
++ [Khóa học Docker - Tedu](https://tedu.com.vn/khoa-hoc/lam-chu-docker-de-chinh-phuc-devops-42.html)
++ [Video: GitHub Actions Workflow + Docker Build & Push](https://www.youtube.com/watch?v=33Ttv3taz7I)
 
 #### Step 2: Lý thuyết Microservice
 - So sánh: monolithic architecture
@@ -58,4 +59,4 @@
   + [Khóa học Design System - Thiết kế hệ thống Microservices](https://200lab.io/khoa-hoc-design-system-thiet-ke-he-thong-microservices/)
 
 
-**Update At:** 30-11-2023
+**Update At:** 29-11-2023
