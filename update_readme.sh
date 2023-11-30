@@ -10,7 +10,7 @@ sed -i "s/\*\*Update At:\*\*.*$/$update_at/" README.md
 git add README.md
 
 # Commit the changes
-git commit -m "Change 'Update_At' in README"
+git commit -m "Update At: current time"
 
 # Continue with the commit
 exit 0
