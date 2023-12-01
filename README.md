@@ -11,10 +11,10 @@
   + [Video: GitHub Actions Workflow + Docker Build & Push](https://www.youtube.com/watch?v=33Ttv3taz7I)
 
 #### Step 2: Lý thuyết Microservice
-- So sánh: monolithic architecture
+- So sánh: monolithic và microservice
 - Các khái niệm trong microservice:
   + Service
-  + API Gateway
+  + API Gateway, HAProxy
   + Giao tiếp giữa các serivce: gRPC, RestAPI, Apache Kafka, RabbitMQ
   + Kubernetes(Cluster, Node, Pod, etcd, Deployments, Replicas, Ingress..)
   + Logging, Monitoring, Tracing
@@ -38,10 +38,12 @@
 #### Step 3: Các tool phục vụ cho microservice
 - Kubernetes
 - Kafka
-- Quản lý logs: ElasticSearch, Kibana, Logstash
+- Kong Gateway, Traefik
+- Logging: ElasticSearch, Kibana, Logstash
 - Monitoring: Grafana và Prometheus
+- Tracing: Jaeger, OpenTelemetry, Datadog
 - CI/CD - Gitops: Jenkins, Helm, ArgoCD,..
-- Các dịch vụ triển khai microservice trên AWS hoặc GCP
+- Các dịch vụ triển khai microservice trên AWS hoặc GCP: GKE, EKS, ECS
 - Tham khảo:
   + [Udemy: Complete Guide to Elasticsearch - (Elasticsearch, Logstash & Kibana)](https://udemy.com/course/elasticsearch-complete-guide/)
   + [Udemy: Grafana tutorial](https://udemy.com/course/grafana-tutorial/)
