@@ -33,7 +33,7 @@
   + [Video: Event-driven trên .NET và áp dụng microservice](https://www.youtube.com/watch?v=sJyCSDwhzWI)
   + [Udemy: kiến trúc Event-Driven Architecture](https://udemy.com/course/event-driven-architecture-the-complete-guide)
   + [Udemy: Design Microservices Architecture with Patterns & Principles](https://udemy.com/course/design-microservices-architecture-with-patterns-principles)
-
+  + [Book: Clean Architecture A Craftsman Guide to Software Structure and Design](https://github.com/GunterMueller/Books-3/blob/master/Clean%20Architecture%20A%20Craftsman%20Guide%20to%20Software%20Structure%20and%20Design.pdf)
 
 #### Step 3: Các tool phục vụ cho microservice
 - Kubernetes
@@ -47,18 +47,21 @@
 - Tham khảo:
   + [Udemy: Complete Guide to Elasticsearch - (Elasticsearch, Logstash & Kibana)](https://udemy.com/course/elasticsearch-complete-guide/)
   + [Udemy: Grafana tutorial](https://udemy.com/course/grafana-tutorial/)
+  + [Repo: prometheus-grafana](https://github.com/tainguyenbp/prometheus-grafana/)
   
 #### Step 4: Hands-on
 - Xây dựng một project khoảng 3,4 service chạy trên Kubernetes
 - Xây dựng 2 service gọi nhau bằng Kafka 
-- Xây dựng đồ án microservice: Coffee-Shop theo Nestjs với Kubernetes
+- Xây dựng đồ án microservice: Coffee-Shop với Nestjs trên Kubernetes (quan trọng)
 - Viết CI/CD và deploy đồ án trên lên AWS hoặc GCP
-  + CI/CD: Jenkins(hoặc GitlabCI, GithubAction), ArgoCD, Helm
+  + CI/CD: Jenkins(GitlabCI, GithubAction), ArgoCD, Helm
   + Monitoring: Grafana và Prometheus
   + Logging: ELK(Elasticsearch, Logstash & Kibana)
 - Tham khảo: 
   + [Khóa học DevOps](https://200lab.io/khoa-hoc-devops/)
   + [Khóa học Design System - Thiết kế hệ thống Microservices](https://200lab.io/khoa-hoc-design-system-thiet-ke-he-thong-microservices/)
+  + [Go Coffeeshop](https://github.com/thangchung/go-coffeeshop) (đồ án mẫu)
+
 
 
 **Update At:** 01-12-2023
