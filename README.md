@@ -45,6 +45,7 @@
 - CI/CD - Gitops: Jenkins, Helm, ArgoCD,..
 - Các dịch vụ triển khai microservice trên AWS hoặc GCP: GKE, EKS, ECS
 - Tham khảo:
+  + [Apache Kafka Series](https://www.udemy.com/course/apache-kafka)
   + [Udemy: Complete Guide to Elasticsearch - (Elasticsearch, Logstash & Kibana)](https://udemy.com/course/elasticsearch-complete-guide/)
   + [Udemy: Grafana tutorial](https://udemy.com/course/grafana-tutorial/)
   + [Repo: prometheus-grafana](https://github.com/tainguyenbp/prometheus-grafana/)
